@@ -1,12 +1,28 @@
 {
-  "name": "roulette",
+  "name": "inquirer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.30.2",
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0",
+    "yargs-parser": "^21.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whysokara/roulette-solana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whysokara/roulette-solana/issues"
+  },
+  "homepage": "https://github.com/whysokara/roulette-solana#readme",
+  "description": ""
 }
